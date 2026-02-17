@@ -1,16 +1,15 @@
 {
-  "circuit_number": 5,
-  "circuit_name": "5th Judicial Circuit",
-  "counties": ["Citrus", "Hernando", "Lake", "Marion", "Sumter"],
-  "coordinator": "Stephanie Figueroa",
-  "department": "",
-  "phone": "",
-  "email": "sfigueroa@circuit5.org",
-  "fax": "",
-  "address": "",
   "mailing_address": "",
-  "website": "https://www.circuit5.org/programs-services/mediation-and-alternative-dispute-resolution/",
-  "programs": ["Small claims", "County civil", "Family/domestic relations", "Dependency"],
+  "circuit_name": "5th Judicial Circuit",
+  "notes": "ADR Director is Stephanie Figueroa (sfigueroa@circuit5.org). Operates county-by-county. One of the strongest volunteer mediation programs in the state for small claims and county. Uses contract mediators for domestic relations and dependency mediation. Does NOT conduct circuit civil mediations.",
+  "additional_staff": [],
+  "counties": [
+    "Citrus",
+    "Hernando",
+    "Lake",
+    "Marion",
+    "Sumter"
+  ],
   "county_contacts": [
     {
       "county": "Citrus",
@@ -48,8 +47,20 @@
       "address": ""
     }
   ],
-  "additional_staff": [],
-  "notes": "ADR Director is Stephanie Figueroa (sfigueroa@circuit5.org). Operates county-by-county. Does NOT conduct circuit civil mediations.",
+  "phone": "",
+  "programs": [
+    "Small claims",
+    "County civil",
+    "Family/domestic relations",
+    "Dependency"
+  ],
   "hours": "",
-  "last_verified": "2026-02-01"
+  "coordinator": "Stephanie Figueroa",
+  "last_verified": "2026-02-01",
+  "department": "",
+  "address": "",
+  "website": "https://www.circuit5.org/programs-services/mediation-and-alternative-dispute-resolution/",
+  "email": "sfigueroa@circuit5.org",
+  "fax": "",
+  "circuit_number": 5
 }
