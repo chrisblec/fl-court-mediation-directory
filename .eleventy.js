@@ -1,8 +1,17 @@
+const markdownIt = require("markdown-it");
+
 module.exports = function (eleventyConfig) {
   // Passthrough copy
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("static");
   eleventyConfig.addPassthroughCopy("src/css");
+
+  // Markdown filter for rendering Markdown strings in data files
+  const md = markdownIt({ html: true });
+  eleventyConfig.addFilter("markdownify", function (str) {
+    if (!str) return "";
+    return md.render(str);
+  });
 
   // Ordinal suffix filter (1st, 2nd, 3rd, etc.)
   eleventyConfig.addFilter("ordinal", function (n) {

@@ -13,11 +13,11 @@ description: "Learn about court mediation in Florida — program types, fees, st
   </section>
 
   <section class="overview-programs">
-    {{ overview.program_types | safe }}
+    {{ overview.program_types | markdownify | safe }}
   </section>
 
   <section class="overview-trends">
-    {{ overview.trends | safe }}
+    {{ overview.trends | markdownify | safe }}
   </section>
 
   <section class="overview-links">
