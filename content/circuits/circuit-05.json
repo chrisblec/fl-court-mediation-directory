@@ -1,0 +1,55 @@
+{
+  "circuit_number": 5,
+  "circuit_name": "5th Judicial Circuit",
+  "counties": ["Citrus", "Hernando", "Lake", "Marion", "Sumter"],
+  "coordinator": "Stephanie Figueroa",
+  "department": "",
+  "phone": "",
+  "email": "sfigueroa@circuit5.org",
+  "fax": "",
+  "address": "",
+  "mailing_address": "",
+  "website": "https://www.circuit5.org/programs-services/mediation-and-alternative-dispute-resolution/",
+  "programs": ["Small claims", "County civil", "Family/domestic relations", "Dependency"],
+  "county_contacts": [
+    {
+      "county": "Citrus",
+      "contact_name": "John Nagy",
+      "phone": "",
+      "email": "jnagy@circuit5.org, citrusmediation@circuit5.org",
+      "address": ""
+    },
+    {
+      "county": "Lake",
+      "contact_name": "Christopher Blechschmidt",
+      "phone": "",
+      "email": "cblechschmidt@circuit5.org, lakemediation@circuit5.org",
+      "address": ""
+    },
+    {
+      "county": "Marion",
+      "contact_name": "Courtney Baker",
+      "phone": "",
+      "email": "cbaker@circuit5.org, marionmediation@circuit5.org",
+      "address": ""
+    },
+    {
+      "county": "Hernando",
+      "contact_name": "John Nagy",
+      "phone": "",
+      "email": "jnagy@circuit5.org, hernandomediation@circuit5.org",
+      "address": ""
+    },
+    {
+      "county": "Sumter",
+      "contact_name": "Christopher Blechschmidt",
+      "phone": "",
+      "email": "cblechschmidt@circuit5.org, lakemediation@circuit5.org",
+      "address": ""
+    }
+  ],
+  "additional_staff": [],
+  "notes": "ADR Director is Stephanie Figueroa (sfigueroa@circuit5.org). Operates county-by-county. Does NOT conduct circuit civil mediations.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

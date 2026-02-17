@@ -1,0 +1,19 @@
+{
+  "circuit_number": 3,
+  "circuit_name": "3rd Judicial Circuit",
+  "counties": ["Columbia", "Dixie", "Hamilton", "Lafayette", "Madison", "Suwannee", "Taylor"],
+  "coordinator": "Jana Sullivan",
+  "department": "",
+  "phone": "",
+  "email": "",
+  "fax": "",
+  "address": "Columbia County Courthouse, 173 NE Hernando Avenue, Lake City, FL 32055",
+  "mailing_address": "",
+  "website": "https://thirdcircuitfl.org/court-mediation/",
+  "programs": ["Family", "Small claims", "County civil", "Dependency"],
+  "county_contacts": [],
+  "additional_staff": [],
+  "notes": "ADR Director is Jana Sullivan — phone and email not publicly listed, contact Court Administration in Lake City. Florida's largest geographical circuit. Operates under Administrative Order AO 2022-004. Uses contract mediators including Kevin C. Lunsford who serves the 3rd, 8th, and 14th Circuits.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

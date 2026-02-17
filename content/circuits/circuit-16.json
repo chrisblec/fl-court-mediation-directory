@@ -1,0 +1,22 @@
+{
+  "circuit_number": 16,
+  "circuit_name": "16th Judicial Circuit",
+  "counties": ["Monroe"],
+  "coordinator": "",
+  "department": "Court Administration / Family Court Services",
+  "phone": "(305) 292-3423",
+  "email": "",
+  "fax": "",
+  "address": "Freeman Justice Center, 302 Fleming Street, Key West, FL 33040",
+  "mailing_address": "",
+  "website": "https://keyscourts.net/programs-services/family-court-services/",
+  "programs": [
+    "Family/domestic relations mediation",
+    "Civil cases (referred to private mediators)"
+  ],
+  "county_contacts": [],
+  "additional_staff": [],
+  "notes": "Smallest mediation program among all 20 circuits. No dedicated ADR director name published. Relies heavily on private certified mediator referrals. Family Court Self-Help phone: (305) 295-3647. Additional locations: Marathon Branch Courthouse; Plantation Key Government Center (Tavernier).",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

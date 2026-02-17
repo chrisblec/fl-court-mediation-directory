@@ -1,0 +1,158 @@
+---
+layout: layouts/base.njk
+---
+
+<article class="circuit-page">
+  <header class="circuit-header">
+    <h1>{{ circuit.circuit_name }} — {{ circuit.counties | join(", ") }}</h1>
+    {% if circuit.department %}
+    <p class="circuit-dept">{{ circuit.department }}</p>
+    {% endif %}
+  </header>
+
+  <section class="circuit-contact">
+    <h2>Contact Information</h2>
+    <table class="contact-table">
+      <tbody>
+        {% if circuit.coordinator %}
+        <tr>
+          <th scope="row">Coordinator/Director</th>
+          <td>{{ circuit.coordinator }}</td>
+        </tr>
+        {% endif %}
+        {% if circuit.phone %}
+        <tr>
+          <th scope="row">Phone</th>
+          <td><a href="tel:{{ circuit.phone | replace('(', '') | replace(')', '') | replace(' ', '') | replace('-', '') }}">{{ circuit.phone }}</a></td>
+        </tr>
+        {% endif %}
+        {% if circuit.email %}
+        <tr>
+          <th scope="row">Email</th>
+          <td><a href="mailto:{{ circuit.email }}">{{ circuit.email }}</a></td>
+        </tr>
+        {% endif %}
+        {% if circuit.fax %}
+        <tr>
+          <th scope="row">Fax</th>
+          <td>{{ circuit.fax }}</td>
+        </tr>
+        {% endif %}
+        {% if circuit.address %}
+        <tr>
+          <th scope="row">Address</th>
+          <td>{{ circuit.address }}</td>
+        </tr>
+        {% endif %}
+        {% if circuit.mailing_address %}
+        <tr>
+          <th scope="row">Mailing Address</th>
+          <td>{{ circuit.mailing_address }}</td>
+        </tr>
+        {% endif %}
+        {% if circuit.website %}
+        <tr>
+          <th scope="row">Website</th>
+          <td><a href="{{ circuit.website }}" target="_blank" rel="noopener">{{ circuit.website }}</a></td>
+        </tr>
+        {% endif %}
+        {% if circuit.hours %}
+        <tr>
+          <th scope="row">Hours</th>
+          <td>{{ circuit.hours }}</td>
+        </tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="circuit-programs">
+    <h2>Programs Offered</h2>
+    <ul class="program-badges">
+      {% for program in circuit.programs %}
+      <li class="badge">{{ program }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% if circuit.county_contacts.length > 0 %}
+  <section class="circuit-county-contacts">
+    <h2>County-Specific Contacts</h2>
+    {% for contact in circuit.county_contacts %}
+    <details class="accordion-item">
+      <summary class="accordion-header">{{ contact.county }}</summary>
+      <div class="accordion-body">
+        <table class="contact-table contact-table--compact">
+          <tbody>
+            {% if contact.contact_name %}
+            <tr>
+              <th scope="row">Contact</th>
+              <td>{{ contact.contact_name }}</td>
+            </tr>
+            {% endif %}
+            {% if contact.phone %}
+            <tr>
+              <th scope="row">Phone</th>
+              <td><a href="tel:{{ contact.phone | replace('(', '') | replace(')', '') | replace(' ', '') | replace('-', '') }}">{{ contact.phone }}</a></td>
+            </tr>
+            {% endif %}
+            {% if contact.email %}
+            <tr>
+              <th scope="row">Email</th>
+              <td><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></td>
+            </tr>
+            {% endif %}
+            {% if contact.address %}
+            <tr>
+              <th scope="row">Address</th>
+              <td>{{ contact.address }}</td>
+            </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+    </details>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if circuit.additional_staff.length > 0 %}
+  <section class="circuit-staff">
+    <h2>Additional Staff</h2>
+    {% for staff in circuit.additional_staff %}
+    <div class="staff-card">
+      <strong>{{ staff.name }}</strong>
+      {% if staff.title %}<span class="staff-title"> — {{ staff.title }}</span>{% endif %}
+      {% if staff.phone %}
+      <br><a href="tel:{{ staff.phone | replace('(', '') | replace(')', '') | replace(' ', '') | replace('-', '') }}">{{ staff.phone }}</a>
+      {% endif %}
+      {% if staff.email %}
+      <br><a href="mailto:{{ staff.email }}">{{ staff.email }}</a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if circuit.notes %}
+  <section class="circuit-notes">
+    <h2>Notes</h2>
+    <div class="notes-content">
+      {{ circuit.notes | safe }}
+    </div>
+  </section>
+  {% endif %}
+
+  <footer class="circuit-footer">
+    <p class="last-verified">Last verified: {{ circuit.last_verified }}</p>
+    <nav class="circuit-nav" aria-label="Circuit navigation">
+      {% if circuit.circuit_number > 1 %}
+      <a href="/circuit/{{ circuit.circuit_number - 1 }}/" class="circuit-nav-link">&larr; Circuit {{ circuit.circuit_number - 1 }}</a>
+      {% endif %}
+      <a href="/" class="circuit-nav-link">All Circuits</a>
+      {% if circuit.circuit_number < 20 %}
+      <a href="/circuit/{{ circuit.circuit_number + 1 }}/" class="circuit-nav-link">Circuit {{ circuit.circuit_number + 1 }} &rarr;</a>
+      {% endif %}
+    </nav>
+  </footer>
+</article>

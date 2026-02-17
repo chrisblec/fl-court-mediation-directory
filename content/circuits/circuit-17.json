@@ -1,0 +1,27 @@
+{
+  "circuit_number": 17,
+  "circuit_name": "17th Judicial Circuit",
+  "counties": ["Broward"],
+  "coordinator": "Brittany Simpson Joseph",
+  "department": "Court Mediation and Arbitration Program (CMAP)",
+  "phone": "(954) 831-6077",
+  "email": "countymed@17th.flcourts.org",
+  "fax": "(954) 831-6079",
+  "address": "Broward County Courthouse, 201 SE 6th Street, West Wing Tower, Room 19150, Fort Lauderdale, FL 33301",
+  "mailing_address": "",
+  "website": "https://www.17th.flcourts.org/mediation-arbitration/",
+  "programs": [
+    "County/small claims",
+    "Family",
+    "Dependency",
+    "Circuit civil",
+    "Non-binding arbitration",
+    "Broward Community Justice Alternatives (CDS)",
+    "Parenting coordination"
+  ],
+  "county_contacts": [],
+  "additional_staff": [],
+  "notes": "Director phone: (954) 831-6075. Info line (automated): (954) 831-6076. Family/Dependency phone: (954) 831-6325. Community Justice Alternatives phone: (954) 831-6004. Community Justice Alternatives (formerly CDS) handles pre-filed cases, state attorney referrals, criminal matters, and neighborhood disputes. Hours 8:30 AM\u20135:00 PM Mon\u2013Fri.",
+  "hours": "8:30 AM\u20135:00 PM Mon\u2013Fri",
+  "last_verified": "2026-02-01"
+}

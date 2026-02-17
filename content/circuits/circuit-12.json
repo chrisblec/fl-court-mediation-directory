@@ -1,0 +1,64 @@
+{
+  "circuit_number": 12,
+  "circuit_name": "12th Judicial Circuit",
+  "counties": ["DeSoto", "Manatee", "Sarasota"],
+  "coordinator": "Lynne Z. Higgins",
+  "department": "",
+  "phone": "",
+  "email": "",
+  "fax": "",
+  "address": "",
+  "mailing_address": "",
+  "website": "https://www.jud12.flcourts.org/Programs",
+  "programs": [
+    "County civil",
+    "Family",
+    "Dependency",
+    "Small claims",
+    "Citizen Dispute Settlement Program (CDSP)",
+    "Pre-filing family mediation",
+    "Arbitration",
+    "Mediator mentorship"
+  ],
+  "county_contacts": [
+    {
+      "county": "Sarasota",
+      "contact_name": "Lynne Higgins",
+      "phone": "(941) 861-7833",
+      "email": "",
+      "address": "2071 Ringling Blvd., Sarasota, FL 34237"
+    },
+    {
+      "county": "Sarasota (Venice)",
+      "contact_name": "Amy Perry",
+      "phone": "(941) 861-3708",
+      "email": "",
+      "address": "4000 S. Tamiami Trail, Venice, FL 34293"
+    },
+    {
+      "county": "Manatee",
+      "contact_name": "Susan Gardner",
+      "phone": "(941) 749-3660",
+      "email": "",
+      "address": "1115 Manatee Ave. W., Bradenton, FL 34205"
+    },
+    {
+      "county": "All Counties (Family/Dependency)",
+      "contact_name": "Maggie Pardi",
+      "phone": "(941) 749-3654",
+      "email": "",
+      "address": ""
+    },
+    {
+      "county": "DeSoto",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "address": "115 East Oak Street, Arcadia, FL 34266"
+    }
+  ],
+  "additional_staff": [],
+  "notes": "Coordinator Lynne Z. Higgins is a Certified County, Family, and Dependency Mediator. CDSP offers free pre-filing mediation for all three counties.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

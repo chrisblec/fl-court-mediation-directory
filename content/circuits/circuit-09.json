@@ -1,0 +1,34 @@
+{
+  "circuit_number": 9,
+  "circuit_name": "9th Judicial Circuit",
+  "counties": ["Orange", "Osceola"],
+  "coordinator": "",
+  "department": "Dispute Resolution Services (DRS)",
+  "phone": "",
+  "email": "",
+  "fax": "",
+  "address": "",
+  "mailing_address": "",
+  "website": "https://ninthcircuit.org/programs-services/dispute-resolution-services",
+  "programs": ["County civil", "Small claims", "Family", "Residential evictions", "Arbitration", "Mediator mentorship"],
+  "county_contacts": [
+    {
+      "county": "Orange",
+      "contact_name": "",
+      "phone": "(407) 836-2004",
+      "email": "OrangeCountyDRS@ocnjcc.org",
+      "address": "Orange County Courthouse, Suite 130, 425 N. Orange Avenue, Orlando, FL 32801"
+    },
+    {
+      "county": "Osceola",
+      "contact_name": "",
+      "phone": "(407) 742-2451",
+      "email": "osceolamediation@ocnjcc.org",
+      "address": "Jon B. Morgan Courthouse, 2 Courthouse Square, Kissimmee, FL 34741"
+    }
+  ],
+  "additional_staff": [],
+  "notes": "No individual director publicly listed. Orange County DRS returned to courthouse permanently June 2024.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

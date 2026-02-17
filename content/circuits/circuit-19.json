@@ -1,0 +1,23 @@
+{
+  "circuit_number": 19,
+  "circuit_name": "19th Judicial Circuit",
+  "counties": ["Indian River", "Martin", "Okeechobee", "St. Lucie"],
+  "coordinator": "Kara Lawson",
+  "department": "",
+  "phone": "(772) 807-4370",
+  "email": "ThomasS@circuit19.org",
+  "fax": "",
+  "address": "Court Administration, 250 NW Country Club Drive, Suite 217, Port Saint Lucie, FL 34986",
+  "mailing_address": "",
+  "website": "https://www.circuit19.org/mediation/",
+  "programs": [
+    "Small claims",
+    "County civil",
+    "Family"
+  ],
+  "county_contacts": [],
+  "additional_staff": [],
+  "notes": "ADR Director Kara Lawson direct phone: (772) 807-4375, email: LawsonK@circuit19.org. Family mediation conducted remotely until further notice. Contract mediator compensation: $20/case small claims, $50/case county civil \u2014 indicating volunteer/contract model.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

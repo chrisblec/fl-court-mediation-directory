@@ -1,0 +1,61 @@
+{
+  "circuit_number": 18,
+  "circuit_name": "18th Judicial Circuit",
+  "counties": ["Brevard", "Seminole"],
+  "coordinator": "",
+  "department": "Court Mediation Program",
+  "phone": "",
+  "email": "",
+  "fax": "",
+  "address": "",
+  "mailing_address": "",
+  "website": "https://flcourts18.org/mediation/",
+  "programs": [
+    "Family",
+    "County civil",
+    "Small claims",
+    "Dependency (Brevard only)",
+    "Online Dispute Resolution (ODR)"
+  ],
+  "county_contacts": [
+    {
+      "county": "Brevard (Civil/Small Claims)",
+      "contact_name": "",
+      "phone": "(321) 635-5065",
+      "email": "BrevardCourtsMediation@flcourts18.org",
+      "address": "2825 Judge Fran Jamieson Way, Viera, FL 32940"
+    },
+    {
+      "county": "Brevard (Family)",
+      "contact_name": "",
+      "phone": "(321) 690-6834",
+      "email": "BrevardFamilyMediation@flcourts18.org",
+      "address": ""
+    },
+    {
+      "county": "Brevard (ODR)",
+      "contact_name": "",
+      "phone": "",
+      "email": "BrevardODR@flcourts18.org",
+      "address": ""
+    },
+    {
+      "county": "Seminole (All Mediation)",
+      "contact_name": "",
+      "phone": "(407) 665-4288",
+      "email": "Mediation@flcourts18.org",
+      "address": "301 N. Park Avenue, Sanford, FL 32771"
+    },
+    {
+      "county": "Seminole (ODR)",
+      "contact_name": "",
+      "phone": "",
+      "email": "SeminoleODR@flcourts18.org",
+      "address": ""
+    }
+  ],
+  "additional_staff": [],
+  "notes": "No individual director publicly listed. Notable for free ODR platform for small claims and debt collection. Family mediations conducted remotely via video. Hours Mon\u2013Thu 8:00 AM\u20135:00 PM; Fri 8:00 AM\u20134:30 PM.",
+  "hours": "Mon\u2013Thu 8:00 AM\u20135:00 PM; Fri 8:00 AM\u20134:30 PM",
+  "last_verified": "2026-02-01"
+}

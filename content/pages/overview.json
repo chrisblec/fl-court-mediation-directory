@@ -1,0 +1,20 @@
+{
+  "intro": "Court mediation is a confidential process where a neutral, Florida Supreme Court-certified mediator helps parties in a lawsuit reach a voluntary agreement. It is used in family, civil, small claims, and dependency cases. Mediators do not decide the outcome — the parties do.",
+  "program_types": "## Common Program Types\n\n**Small Claims Mediation** — Offered free at pretrial conferences in nearly every circuit. Volunteer certified mediators handle cases involving disputes up to $8,000.\n\n**County Civil Mediation** — Covers civil cases valued between $8,001 and $50,000. Standard fee is $60 per party for a two-hour session.\n\n**Family Mediation** — Used in dissolution of marriage, paternity, custody/timesharing, and other domestic relations cases. Fees range from $60–$120 per party for a three-hour session based on combined household income (households under $100,000). Parties with income above $100,000 are typically referred to private mediators.\n\n**Dependency Mediation** — Used in child welfare/DCF cases. Always free to the parties.\n\n**Circuit Civil Mediation** — For cases over $50,000. Most circuits do NOT offer this in-house — parties are referred to private certified mediators from the Florida Supreme Court roster. Notable exceptions include the 11th Circuit (Miami-Dade), 13th Circuit (Hillsborough), and 17th Circuit (Broward).\n\n**Citizen Dispute Settlement / Community Mediation** — Available in some circuits (12th, 13th, 17th, 20th) for disputes that have not yet been filed as lawsuits — neighbor conflicts, consumer complaints, etc. Typically free.\n\n**Arbitration** — Non-binding arbitration is offered in some circuits (6th, 8th, 11th, 12th, 15th, 17th) as an alternative to mediation for county civil cases.\n\n**Online Dispute Resolution (ODR)** — The 18th Circuit (Brevard/Seminole) offers a digital, asynchronous platform for small claims and debt collection cases.",
+  "trends": "## Statewide Trends and Observations\n\n- Program scope correlates strongly with population. Urban circuits (6th, 9th, 11th, 13th, 15th, 17th) offer the broadest range of services. Rural circuits (3rd, 16th) operate leaner programs focused on family and small claims.\n- Multi-county circuits typically designate one county as the administrative hub with satellite services in outlying counties. The 5th, 6th, 12th, 18th, and 20th Circuits all follow this decentralized model with county-specific coordinators.\n- Remote mediation expanded significantly during the pandemic and persists in several circuits. The 10th Circuit conducts all mediations via Zoom. The 18th and 19th Circuits handle family mediation remotely. The 18th Circuit's ODR platform represents the newest evolution toward fully digital dispute resolution.\n- Nearly all circuits require a 48-hour cancellation notice. Failure to appear can result in sanctions.\n- All mediations in Florida are confidential under Florida Statute §44.405.",
+  "external_links": [
+    {
+      "label": "Florida Dispute Resolution Center (DRC)",
+      "url": "https://www.flcourts.gov/Resources-Services/Alternative-Dispute-Resolution"
+    },
+    {
+      "label": "Florida Supreme Court Certified Mediator Search",
+      "url": "https://www.flcourts.gov/Resources-Services/Alternative-Dispute-Resolution/Certified-Mediator-Search"
+    },
+    {
+      "label": "Florida Rules for Certified and Court-Appointed Mediators",
+      "url": "https://www.flcourts.gov/Resources-Services/Alternative-Dispute-Resolution/Mediator-Rules-and-Ethics"
+    }
+  ],
+  "last_updated": "2026-02-01"
+}

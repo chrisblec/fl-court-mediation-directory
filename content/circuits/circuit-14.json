@@ -1,0 +1,42 @@
+{
+  "circuit_number": 14,
+  "circuit_name": "14th Judicial Circuit",
+  "counties": ["Bay", "Calhoun", "Gulf", "Holmes", "Jackson", "Washington"],
+  "coordinator": "Sonja Nickson",
+  "department": "",
+  "phone": "(850) 914-6327",
+  "email": "mediation@jud14.flcourts.org",
+  "fax": "",
+  "address": "300 E. 4th Street, Panama City, FL 32401",
+  "mailing_address": "P.O. Box 2269, Panama City, FL 32402",
+  "website": "https://www.jud14.flcourts.org/court-programs/alternative-dispute-resolution-mediation",
+  "programs": [
+    "County mediation (Bay, Jackson, Holmes, Washington)",
+    "Family (all 6 counties)",
+    "Dependency (all 6 counties)"
+  ],
+  "county_contacts": [],
+  "additional_staff": [
+    {
+      "name": "Crystal Ebersole",
+      "title": "Mediation Services Coordinator",
+      "phone": "(850) 718-0026",
+      "email": "ebersolec@jud14.flcourts.org"
+    },
+    {
+      "name": "Donna Gainer-Smith",
+      "title": "Mediation Services Coordinator",
+      "phone": "(850) 914-6326",
+      "email": ""
+    },
+    {
+      "name": "Tori Roland",
+      "title": "ADR Program Assistant",
+      "phone": "(850) 718-0027",
+      "email": "rolandt@jud14.flcourts.org"
+    }
+  ],
+  "notes": "ADR Director Sonja Nickson is a Certified County, Family, and Dependency Mediator. Director email: nicksons@jud14.flcourts.org. Does NOT operate a circuit civil mediation program. Parties needing circuit civil mediation directed to Florida Supreme Court certified mediator list.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

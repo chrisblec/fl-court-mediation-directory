@@ -1,0 +1,48 @@
+{
+  "circuit_number": 7,
+  "circuit_name": "7th Judicial Circuit",
+  "counties": ["Flagler", "Putnam", "St. Johns", "Volusia"],
+  "coordinator": "Courtney Pringle",
+  "department": "",
+  "phone": "",
+  "email": "info@circuit7.org",
+  "fax": "",
+  "address": "",
+  "mailing_address": "",
+  "website": "https://circuit7.org/family-mediation/",
+  "programs": ["Family mediation", "Residential mortgage foreclosure mediation"],
+  "county_contacts": [
+    {
+      "county": "Volusia (Daytona Beach)",
+      "contact_name": "",
+      "phone": "(386) 248-8117",
+      "email": "",
+      "address": "125 E. Orange Ave., Daytona Beach, FL 32114"
+    },
+    {
+      "county": "Volusia (DeLand)",
+      "contact_name": "",
+      "phone": "(386) 943-7099",
+      "email": "",
+      "address": ""
+    },
+    {
+      "county": "Flagler/Putnam/St. Johns",
+      "contact_name": "",
+      "phone": "(904) 827-5638",
+      "email": "",
+      "address": "4010 Lewis Speedway, St. Augustine, FL 32084"
+    },
+    {
+      "county": "Court Administrator's Office",
+      "contact_name": "",
+      "phone": "(386) 257-6097",
+      "email": "",
+      "address": ""
+    }
+  ],
+  "additional_staff": [],
+  "notes": "Family Court Services Manager is Courtney Pringle. General email is info@circuit7.org — circuit discourages email due to FL public records law. Primarily offers court mediation for family law cases. Circuit civil referred to private mediators.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

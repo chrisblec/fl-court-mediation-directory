@@ -1,0 +1,78 @@
+---
+layout: layouts/base.njk
+title: Home
+description: "Directory of court mediation programs across all 20 judicial circuits in Florida. Find contact information, program details, and resources."
+---
+
+<section class="hero">
+  <h1>Florida Court Mediation Directory</h1>
+  <p class="hero-sub">Find contact information, programs, and resources for court mediation across all 20 judicial circuits in Florida.</p>
+</section>
+
+<section class="county-search">
+  <h2>Find Your Circuit by County</h2>
+  <div class="search-wrapper">
+    <label for="county-input" class="sr-only">Enter your county name</label>
+    <input type="text" id="county-input" placeholder="Type a county name (e.g., Miami-Dade, Orange, Hillsborough)..." autocomplete="off">
+    <div id="search-results" class="search-results" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="circuit-grid-section">
+  <h2>All 20 Judicial Circuits</h2>
+  <div class="circuit-grid">
+    {% for c in circuits %}
+    <a href="/circuit/{{ c.circuit_number }}/" class="circuit-card">
+      <span class="circuit-card-number">{{ c.circuit_number | ordinal }}</span>
+      <span class="circuit-card-counties">{{ c.counties | join(", ") }}</span>
+      <span class="circuit-card-programs">{{ c.programs | length }} program{{ "s" if c.programs | length != 1 }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="cta-section">
+  <h2>Learn More About Court Mediation</h2>
+  <p>New to court mediation? Our overview explains the different program types, fees, and how mediation works across Florida.</p>
+  <a href="/overview/" class="btn btn-primary">Read the Overview</a>
+</section>
+
+<script>
+(function() {
+  var countyData = {{ countyLookup | dump | safe }};
+  var counties = Object.keys(countyData).sort();
+  var input = document.getElementById('county-input');
+  var results = document.getElementById('search-results');
+
+  input.addEventListener('input', function() {
+    var query = this.value.trim().toLowerCase();
+    results.innerHTML = '';
+    if (query.length < 2) return;
+
+    var matches = counties.filter(function(c) {
+      return c.toLowerCase().indexOf(query) !== -1;
+    });
+
+    if (matches.length === 0) {
+      results.innerHTML = '<div class="search-no-result">No county found. Check your spelling or browse the circuits below.</div>';
+      return;
+    }
+
+    matches.slice(0, 8).forEach(function(county) {
+      var info = countyData[county];
+      var link = document.createElement('a');
+      link.href = '/circuit/' + info.circuit_number + '/';
+      link.className = 'search-result-item';
+      link.innerHTML = '<strong>' + county + ' County</strong> <span>→ ' + info.circuit_name + '</span>';
+      results.appendChild(link);
+    });
+  });
+
+  // Close results when clicking outside
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.search-wrapper')) {
+      results.innerHTML = '';
+    }
+  });
+})();
+</script>

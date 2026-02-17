@@ -1,0 +1,26 @@
+{
+  "circuit_number": 10,
+  "circuit_name": "10th Judicial Circuit",
+  "counties": ["Hardee", "Highlands", "Polk"],
+  "coordinator": "Victor Martinez Reyes, PhD",
+  "department": "",
+  "phone": "(863) 534-4698",
+  "email": "mediation@jud10.flcourts.org",
+  "fax": "(863) 534-4073",
+  "address": "Polk County Courthouse, 255 N. Broadway Ave., Bartow, FL 33830",
+  "mailing_address": "",
+  "website": "https://jud10.flcourts.org/?q=mediation",
+  "programs": ["Family", "Dependency", "County civil/small claims", "Landlord/tenant"],
+  "county_contacts": [],
+  "additional_staff": [
+    {
+      "name": "Luisa Muller, Esq., LLM",
+      "title": "",
+      "phone": "",
+      "email": "lmuller@Jud10.FLCourts.org"
+    }
+  ],
+  "notes": "Director is Victor Martinez Reyes, PhD (vreyes@Jud10.FLCourts.org). All mediations conducted via Zoom video and telephone. Also runs AIM (Anger Is Manageable) program and Two Families Now parent education.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

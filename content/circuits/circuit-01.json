@@ -1,0 +1,19 @@
+{
+  "circuit_number": 1,
+  "circuit_name": "1st Judicial Circuit",
+  "counties": ["Escambia", "Okaloosa", "Santa Rosa", "Walton"],
+  "coordinator": "",
+  "department": "",
+  "phone": "",
+  "email": "",
+  "fax": "",
+  "address": "M.C. Blanchard Judicial Building, 190 W. Government Street, Pensacola, FL 32502",
+  "mailing_address": "",
+  "website": "https://www.firstjudicialcircuit.org/legal-professionals/court-mediation/",
+  "programs": ["Small claims", "Family", "Dependency"],
+  "county_contacts": [],
+  "additional_staff": [],
+  "notes": "Coordinator not publicly listed — contact Court Administration directly. Website uses dynamic rendering that limits extractable contact details. Recommend calling Court Administration directly.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

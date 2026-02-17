@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+title: Overview
+description: "Learn about court mediation in Florida — program types, fees, statewide trends, and useful resources."
+---
+
+<article class="overview-page">
+  <h1>Court Mediation in Florida — Overview</h1>
+
+  <section class="overview-intro">
+    <h2>What is Court Mediation in Florida?</h2>
+    <p>{{ overview.intro }}</p>
+  </section>
+
+  <section class="overview-programs">
+    {{ overview.program_types | safe }}
+  </section>
+
+  <section class="overview-trends">
+    {{ overview.trends | safe }}
+  </section>
+
+  <section class="overview-links">
+    <h2>Useful External Links</h2>
+    <ul class="external-links">
+      {% for link in overview.external_links %}
+      <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <p class="last-updated">Last updated: {{ overview.last_updated }}</p>
+</article>

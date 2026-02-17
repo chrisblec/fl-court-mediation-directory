@@ -1,0 +1,68 @@
+{
+  "circuit_number": 20,
+  "circuit_name": "20th Judicial Circuit",
+  "counties": ["Charlotte", "Collier", "Glades", "Hendry", "Lee"],
+  "coordinator": "",
+  "department": "Alternative Dispute Resolution / Court Mediation Program",
+  "phone": "(239) 533-1700",
+  "email": "",
+  "fax": "",
+  "address": "1700 Monroe Street, Fort Myers, FL 33901",
+  "mailing_address": "",
+  "website": "https://www.ca.cjis20.org/Programs/Alternative-Dispute-Resolution/mediation.aspx",
+  "programs": [
+    "Small claims",
+    "Family",
+    "County court civil",
+    "Circuit court civil",
+    "Citizens Dispute Settlement Program (CDS)"
+  ],
+  "county_contacts": [
+    {
+      "county": "Lee (+ Hendry, Glades)",
+      "contact_name": "Jack Hughes",
+      "phone": "(239) 533-3353",
+      "email": "",
+      "address": "1700 Monroe St., Room 3404, Fort Myers, FL 33901"
+    },
+    {
+      "county": "Charlotte",
+      "contact_name": "V. Gray",
+      "phone": "(941) 637-2317",
+      "email": "vgray@ca.cjis20.org",
+      "address": "350 E. Marion Ave., Punta Gorda, FL 33950"
+    },
+    {
+      "county": "Collier",
+      "contact_name": "Iler L. Rivera-Chicas",
+      "phone": "(239) 252-8704",
+      "email": "Mediation-collier@ca.cjis20.org",
+      "address": "3315 Tamiami Trail East, Naples, FL 34112"
+    },
+    {
+      "county": "Hendry",
+      "contact_name": "Dawn Oliver",
+      "phone": "(863) 675-5374",
+      "email": "",
+      "address": "25 E. Hickpochee Ave., LaBelle, FL 33935"
+    },
+    {
+      "county": "Glades",
+      "contact_name": "",
+      "phone": "(239) 533-3353",
+      "email": "",
+      "address": "Served by Lee County ADR Program"
+    }
+  ],
+  "additional_staff": [
+    {
+      "name": "Jack Hughes",
+      "title": "ADR/Civil Manager (Lee County)",
+      "phone": "(239) 533-3353",
+      "email": ""
+    }
+  ],
+  "notes": "Decentralized by county. Hendry and Glades served by Lee County ADR Program.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

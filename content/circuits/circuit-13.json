@@ -1,0 +1,27 @@
+{
+  "circuit_number": 13,
+  "circuit_name": "13th Judicial Circuit",
+  "counties": ["Hillsborough"],
+  "coordinator": "Kim Joyner-Diaz",
+  "department": "",
+  "phone": "(813) 272-5642",
+  "email": "mediation@fljud13.org",
+  "fax": "(813) 301-3705",
+  "address": "George E. Edgecomb Courthouse, 800 E. Twiggs Street, Suite 208, Tampa, FL 33602",
+  "mailing_address": "",
+  "website": "https://www.fljud13.org/CourtPrograms/MediationDiversionServices.aspx",
+  "programs": [
+    "Small claims",
+    "County civil",
+    "Circuit civil",
+    "Family",
+    "Dependency",
+    "Community mediation",
+    "Arbitration"
+  ],
+  "county_contacts": [],
+  "additional_staff": [],
+  "notes": "Director Kim Joyner-Diaz is a Certified County, Circuit, Dependency, and Family Mediator. One of the most comprehensive programs in the state. Community mediation program funded by Hillsborough County BOCC provides free dispute resolution without requiring a lawsuit.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

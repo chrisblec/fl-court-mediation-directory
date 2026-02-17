@@ -1,0 +1,11 @@
+---
+layout: layouts/circuit.njk
+pagination:
+  data: circuits
+  size: 1
+  alias: circuit
+permalink: "circuit/{{ circuit.circuit_number }}/"
+eleventyComputed:
+  title: "{{ circuit.circuit_name }}"
+  description: "Court mediation programs, contacts, and services for the {{ circuit.circuit_name }} covering {{ circuit.counties | join(', ') }}."
+---

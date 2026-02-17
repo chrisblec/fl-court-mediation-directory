@@ -1,0 +1,19 @@
+{
+  "circuit_number": 2,
+  "circuit_name": "2nd Judicial Circuit",
+  "counties": ["Franklin", "Gadsden", "Jefferson", "Leon", "Liberty", "Wakulla"],
+  "coordinator": "",
+  "department": "ADR Unit, Office of the Court Administrator",
+  "phone": "(850) 606-4433",
+  "email": "Mediations@leoncountyfl.gov",
+  "fax": "",
+  "address": "Leon County Courthouse, 301 S. Monroe Street, Tallahassee, FL 32301",
+  "mailing_address": "",
+  "website": "https://2ndcircuit.leoncountyfl.gov/resolution.php",
+  "programs": ["County civil ($8,000–$15,000)", "Family", "Dependency", "Small claims", "Unified family court"],
+  "county_contacts": [],
+  "additional_staff": [],
+  "notes": "County civil mediation costs $60/party for 2 hours. Family mediation $60–$120/party for 3 hours based on income. Maintains rosters of qualified arbitrators and parent coordinators.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

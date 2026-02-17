@@ -1,0 +1,48 @@
+{
+  "circuit_number": 6,
+  "circuit_name": "6th Judicial Circuit",
+  "counties": ["Pasco", "Pinellas"],
+  "coordinator": "",
+  "department": "Alternative Dispute Resolution",
+  "phone": "",
+  "email": "",
+  "fax": "",
+  "address": "",
+  "mailing_address": "",
+  "website": "https://www.jud6.org/ContactInformation/AlternativeDisputeResolution.html",
+  "programs": ["Family", "Dependency", "Circuit civil", "County civil", "Small claims", "Non-binding arbitration"],
+  "county_contacts": [
+    {
+      "county": "Pasco (West — New Port Richey)",
+      "contact_name": "",
+      "phone": "Family: (727) 847-8174; Other: (727) 847-8903",
+      "email": "",
+      "address": "7530 Little Road, Suite 201, New Port Richey, FL 34654"
+    },
+    {
+      "county": "Pasco (East — Dade City)",
+      "contact_name": "",
+      "phone": "(352) 521-4378",
+      "email": "",
+      "address": "38053 Live Oak Avenue, Suite 124, Dade City, FL 33523"
+    },
+    {
+      "county": "Pinellas (Clearwater)",
+      "contact_name": "",
+      "phone": "Family: (727) 464-4947; Dependency: (727) 582-7206; Circuit Civil: (727) 464-4943; County: (727) 582-7696; Small Claims/Arbitration: (727) 464-4932",
+      "email": "",
+      "address": "315 Court Street, Room 401, Clearwater, FL 33756"
+    },
+    {
+      "county": "Pinellas (St. Petersburg)",
+      "contact_name": "",
+      "phone": "Family/Dependency: (727) 582-7206; Circuit Civil/County: (727) 582-7696",
+      "email": "",
+      "address": "545 1st Ave. N., Room 109, St. Petersburg, FL 33701"
+    }
+  ],
+  "additional_staff": [],
+  "notes": "One of the largest circuits. Operates from four courthouse locations. No individual ADR manager name publicly listed.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

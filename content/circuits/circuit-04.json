@@ -1,0 +1,19 @@
+{
+  "circuit_number": 4,
+  "circuit_name": "4th Judicial Circuit",
+  "counties": ["Clay", "Duval", "Nassau"],
+  "coordinator": "",
+  "department": "Alternative Dispute Resolution Unit",
+  "phone": "(904) 255-1120",
+  "email": "",
+  "fax": "",
+  "address": "Duval County Courthouse, 501 West Adams Street, Room 2169, Jacksonville, FL 32202",
+  "mailing_address": "",
+  "website": "https://www.jud4.org/court-programs/alternative-dispute-resolution-(adr)",
+  "programs": ["County/small claims", "County civil", "Family", "Dependency"],
+  "county_contacts": [],
+  "additional_staff": [],
+  "notes": "Phone: (904) 255-1120 (Mediation/ADR); (904) 255-1001 (Court Administration). Email not publicly listed. All pro se and qualifying attorney-represented litigants with contested family law issues are court-ordered to mediation. 48-hour cancellation policy.",
+  "hours": "",
+  "last_verified": "2026-02-01"
+}

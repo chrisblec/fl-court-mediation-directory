@@ -1,0 +1,32 @@
+{
+  "circuit_number": 11,
+  "circuit_name": "11th Judicial Circuit",
+  "counties": ["Miami-Dade"],
+  "coordinator": "Vivian Perez Pollo",
+  "department": "",
+  "phone": "(305) 349-7344",
+  "email": "",
+  "fax": "",
+  "address": "Dade County Courthouse, 73 West Flagler Street, Room 1801, Miami, FL 33130",
+  "mailing_address": "",
+  "website": "https://www.jud11.flcourts.org/Mediation",
+  "programs": [
+    "Family",
+    "Juvenile dependency",
+    "County court (landlord/tenant, small claims, county civil)",
+    "Circuit court",
+    "Arbitration"
+  ],
+  "county_contacts": [],
+  "additional_staff": [
+    {
+      "name": "Sabrina Haspil",
+      "title": "Mediation/Arbitration Wheel Contact",
+      "phone": "(305) 349-7344",
+      "email": ""
+    }
+  ],
+  "notes": "Maintains formal Mediation and Arbitration \"Wheels\" for court-appointed mediators at $125/hour and arbitrators at $200/day. Hours 8:00 AM\u20135:00 PM Mon\u2013Fri.",
+  "hours": "8:00 AM\u20135:00 PM Mon\u2013Fri",
+  "last_verified": "2026-02-01"
+}
