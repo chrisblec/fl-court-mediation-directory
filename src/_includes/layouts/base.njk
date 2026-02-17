@@ -6,7 +6,6 @@
   <title>{% if title %}{{ title }} — {% endif %}{{ settings.site_title }}</title>
   <meta name="description" content="{% if description %}{{ description }}{% else %}Directory of court mediation programs across all 20 judicial circuits in Florida.{% endif %}">
   <link rel="stylesheet" href="/css/style.css">
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -84,16 +83,6 @@
       }
     });
 
-    // Netlify Identity redirect
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", function(user) {
-        if (!user) {
-          window.netlifyIdentity.on("login", function() {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
   </script>
 </body>
 </html>
